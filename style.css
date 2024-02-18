@@ -1,0 +1,398 @@
+@import url("https://fonts.cdnfonts.com/css/netflix-font");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif !important;
+}
+
+.main {
+  background-image: url(images/netflix.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+  position: relative;
+  
+}
+
+.main .box {
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  height: 644px;
+  opacity: 0.59;
+}
+.div2{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+}
+ div .diller {
+  border-radius: 5px;
+  color: white;
+  height: 32px;
+  position: relative;
+  width: 124px;
+  border: 1px solid gray;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-right: 0.75rem;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  outline: none;
+ }
+ div .diller:focus{
+  border: 2px solid white;
+ }
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80vw;
+  margin: auto;
+  height: 100px;
+}
+.nav1 {
+  
+  position: relative;
+}
+
+nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.oturum {
+  margin-left: 10px;
+  width: 124px !important ;
+  height: 32px !important ;
+  font-size: 14px !important ;
+  padding: 0 !important ;
+  font-weight: 800 !important   ;
+}
+
+
+.dil {
+  border: 1px solid white !important  ;
+  width: 126px !important ;
+  height: 32px !important ;
+  font-size: 14px !important ;
+  padding: 0 !important;
+  opacity: 0.6 !important;
+  background-color: black !important;
+  font-weight: 800;
+  filter: brightness(400%) !important;
+  color: white;
+  position: relative;
+  z-index: 10;
+
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+
+.btn {
+  padding: 12px 24px;
+  background-color: rgba(248, 243, 243, 0.021);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  height: 56px;
+  width: 174px;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgb(121, 7, 7);
+}
+.btn-red {
+  background-color: #c11119;
+}
+
+.email {
+  width: 404px;
+  height: 56px;
+  border-color: gray;
+}
+.email:focus {
+  border: 2px solid white;
+  width: 404px;
+  height: 56px;
+}
+::placeholder {
+  font-size: 16px;
+  color: white;
+  opacity: 0.6;
+}
+
+.hero {
+  color: white;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 30px;
+  height: calc(100% - 100px);
+}
+
+.hero > :nth-child(1) {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bolder;
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400px;
+}
+
+.hero > :nth-child(3) {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-buttons > :nth-child(2) {
+  padding: 8px 24px;
+}
+
+.hero-buttons input {
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  outline: none;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(179, 179, 179);
+  border-radius: 4px;
+  color: white;
+}
+
+.first {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+}
+
+.secImg {
+  position: relative;
+}
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+}
+.first h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.first p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.seperation {
+  background-color: rgb(67, 65, 65);
+  height: 3px;
+}
+
+.faq {
+  color: white;
+  background: black;
+  padding: 35px;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.faqbox {
+  background: #292828;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 34px auto;
+  cursor: pointer;
+  max-width: 60vw;
+}
+.faqbox:hover {
+  transition: all 0.5s;
+  background: #414141;
+}
+
+.basla {
+  padding: 20px;
+
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.izle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 60%;
+  margin: auto;
+}
+.buttonlar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+.e-posta {
+  line-height: 1.5;
+  font-size: 1rem;
+  padding: 1.5rem 1rem 0.5rem 1rem;
+  height: 56px !important;
+  width: 404px !important;
+  background-color: #0f0f0f;
+  border: 1px solid gray;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  margin-bottom: 100px;
+  height: 100%;
+}
+
+footer .question {
+  padding: 34px 0px;
+  font-size: 25px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  display: block;
+  margin-top: 10px;
+}
+
+.footer_alt{
+  margin-top: 15px;
+  width: 100%;
+  padding-top: 10px;
+}
+.en_alt{
+  
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.alt_dil{
+  
+  border-radius: 5px;
+}
+.alt_dil:focus{
+  border: 2px solid white !important;
+  
+}
+
+
+section.hidden1{
+  display: none;
+}
+
+ @media (max-width: 900px)  {
+   
+  .respon{
+    display: grid;
+    text-align: center;
+  }
+  .respon h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 2rem;
+  }
+  .respon p{
+    font-size: 1.125rem;  
+  }
+ section.hidden2{
+    display: none;
+ }
+  section.hidden1{
+    display: flex;
+    flex-direction: column;
+  }
+
+.hero> span:nth-child(1){
+  font-size: 2rem;
+}
+
+.hero> span:nth-child(2){
+  font-size: 1.125rem;
+}
+.hero> span:nth-child(3){
+  font-size: 1.125rem;
+}
+.email{
+  width: 360px;
+}
+.btn{
+  font-size: 1.125rem;
+  width: 140px;
+}
+
+}
