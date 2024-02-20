@@ -7,7 +7,7 @@
 - CSS
 
 # Ekran Görüntüleri
-![](imgages/netflix.png)
+![](images/netflix.png)
 
 # Gif
 ![](images/netflix.gif)
